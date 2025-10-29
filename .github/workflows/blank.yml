@@ -29,6 +29,9 @@ jobs:
           pip install black flake8
           
           flake8 . 
+
+          echo Passed linting
+
           
       - name: Run a one-line script
         run: echo Hello, world!
